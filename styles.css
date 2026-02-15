@@ -1,0 +1,101 @@
+
+html {
+    background-image: url(flowerfield.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.main-header {
+    border: 5px solid rgb(43, 25, 10);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 330px;
+    margin-right: 330px;
+    background-color: rgb(235, 187, 187);
+
+}
+
+h1 {
+    font-family: 'Pixelify Sans';
+    text-align: center;
+}
+
+.loveletterimg {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.openbutton {
+    text-align: center;
+}
+
+button {
+    size: 25%;
+    border: 3px solid rgb(43, 25, 10);
+    background-color: rgb(235, 187, 187);
+    font-family: 'Pixelify Sans';
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button:hover {
+    background-color: firebrick;
+}
+
+.togetherpics {
+    display:block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.text_container {
+    background-color: rgb(235, 215, 203);
+    font-family: "Pixelify Sans";
+    font-size: 20px;
+    text-align:center;
+    border: 5px solid rgb(43, 25, 10);
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 15px;
+}
+pre {
+    font-family: "Pixelify Sans";
+    letter-spacing: 1px;
+}
+
+.weep {
+    display: block;
+    margin: auto;
+    width: 17%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+.button_rows {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.button_rows a img {
+    max-width: 50%;
+    display:block;
+    margin: auto;
+}
